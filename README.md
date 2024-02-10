@@ -1,6 +1,8 @@
-# scripts
+# Put a `gitas-config.json` file in `~`
 
-Execute the script in `hello-world` branch:
-```
-npx https://github.com/thejimmylin/scripts/tree/hello-world
+```json
+[
+  { "email": "b00502013@gmail.com", "name": "Jimmy Lin" },
+  { "email": "foo@bar.com", "name": "baz" }
+]
 ```

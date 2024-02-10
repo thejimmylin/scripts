@@ -11,8 +11,8 @@ const config = configs.find((config) => config.email === process.argv[2]);
 const { email, name } = config;
 
 const commands = [
-  `git config --global user.email ${email}`,
-  `git config --global user.name ${name}`,
+  `git config --global user.email "${email}"`,
+  `git config --global user.name "${name}"`,
   `rm ~/.ssh/id_ed25519`,
   `rm ~/.ssh/id_ed25519.pub`,
   `cp ~/.ssh/${email}/id_ed25519 ~/.ssh/id_ed25519`,

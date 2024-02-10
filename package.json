@@ -1,6 +1,6 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
+  "name": "gitas",
+  "version": "0.0.1",
   "type": "module",
   "bin": "index.js"
 }
